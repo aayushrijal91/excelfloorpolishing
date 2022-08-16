@@ -1,0 +1,105 @@
+/* Font sizes */
+h1 {
+    font-size: 4.0625rem; // 65px
+    margin-bottom: 0;
+
+    @include media-breakpoint-down(md) {
+        font-size: 3rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 2rem;
+    }
+}
+
+h2 {
+    font-size: 3.4375rem; // 55px
+    margin-bottom: 0;
+
+    @include media-breakpoint-down(lg) {
+        font-size: 3rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 2rem;
+    }
+}
+
+h3,
+.h3 {
+    font-size: 1.5625rem; // 25px
+    margin-bottom: 0;
+
+    @include media-breakpoint-down(md) {
+        font-size: 2rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1.5rem;
+    }
+}
+
+h4,
+.h4 {
+    font-size: 1.25rem; // 20px
+    margin-bottom: 0;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1.5rem;
+    }
+}
+
+h5,
+.h5 {
+    font-size: 1rem; // 16px
+    margin-bottom: 0;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+    }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+$font-anton: "Anton", sans-serif;
+$font-articulat: "Articulat", "sans-serif";
+
+$font-body: $font-anton;
+
+$font-families: (
+    "anton": "Anton",
+    "articulat": "Articulat",
+);
+
+@each $name, $font-family in $font-families {
+    .font-#{$name} {
+        font-family: $font-family, sans-serif;
+    }
+}
+
+$asset-path: "../webfonts/";
+
+/* Fonts includer */
+@mixin font-face($font-family, $font-file, $weight: "normal", $style: "normal") {
+    @font-face {
+        font-family: $font-family;
+        src: local($font-file), url($asset-path + $font-file + ".woff") format("woff"),
+            url($asset-path + $font-file + ".woff2") format("woff2"),
+            url($asset-path + $font-file + ".eot") format("embedded-opentype");
+        font-weight: $weight;
+        font-style: $style;
+    }
+}
+
+@include font-face("Articulat", "ArticulatCF-Regular", 400);
+@include font-face("Articulat", "ArticulatCF-Medium", 600);
+@include font-face("Articulat", "ArticulatCF-DemiBold", 700);
+@include font-face("Articulat", "ArticulatCF-Bold", 800);
+
+$font-weights: 300, 400, 500, 600, 700, 800, 900;
+
+@each $fw in $font-weights {
+    .fw-#{$fw} {
+        font-weight: $fw;
+    }
+}

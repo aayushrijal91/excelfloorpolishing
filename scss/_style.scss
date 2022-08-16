@@ -1,0 +1,58 @@
+@function imgUrl($file, $path: "background") {
+    @return url("../images/" + $path + "/" + $file) no-repeat;
+}
+
+header {
+    .header-top-bar {
+        padding: 73px 0 27px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+        background: linear-gradient(
+            90.52deg,
+            #1770ad 0.84%,
+            #1e75b1 18.13%,
+            #2a94de 29.34%,
+            #1e7ec1 40.67%,
+            #2a87c8 60.06%,
+            #2997e3 68.8%,
+            #1582cd 77.35%,
+            #106aa8 101.46%
+        );
+
+        .top-buttons {
+            .btn {
+                height: 55px;
+                padding: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $white;
+                font-family: $font-articulat;
+
+                .arrow {
+                    background-color: $white;
+                    height: 39px;
+                    width: 39px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+
+    .banner {
+        background: imgUrl("banner.png");
+        background-size: contain;
+        padding: 161px 0 124px;
+    }
+}
+
+footer {
+    font-size: 0.875rem;
+    background-color: #221f1f;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.61rem;
+    }
+}
