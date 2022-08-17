@@ -13,15 +13,15 @@ include __DIR__ . '/header.php';
                     </a>
                 </div>
                 <div class="col-auto top-buttons">
-                    <div class="row justify-content-center justify-content-lg-end no-gutters align-items-center">
-                        <div class="col-12 col-md-auto ml-lg-3 mr-2 mr-lg-0">
-                            <a href="#form-quote" class="btn btn-secondary rounded-pill px-5 fw-700 h3">
+                    <div class="row justify-content-center justify-content-lg-end align-items-center">
+                        <div class="col-12 col-md-auto">
+                            <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill px-5 fw-700 h3">
                                 <?= $phone_number ?>
                             </a>
                         </div>
-                        <div class="col-12 col-md-auto ml-lg-2">
-                            <a href="tel:<?= $phone_number ?>" class="btn border-white bordered rounded-pill">
-                            <div class="px-4 fw-800 line-height-1 h5">Get Your Free Quote</div>
+                        <div class="col-12 col-md-auto">
+                            <a href="#form" class="btn border-white bordered rounded-pill">
+                                <div class="px-4 fw-800 line-height-1 h5">Get Your Free Quote</div>
                                 <div class="arrow">
                                     <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M7.97453 9.89947L1.39867 3.32361C0.86711 2.79205 0.867111 1.93023 1.39867 1.39867C1.93023 0.867111 2.79205 0.867111 3.32361 1.39867L10.7559 8.83098C10.7945 8.86198 10.8319 8.89539 10.8677 8.93122C11.1353 9.19885 11.2682 9.55021 11.2664 9.90098C11.2674 10.2507 11.1346 10.6008 10.8677 10.8677C10.8319 10.9035 10.7946 10.9369 10.756 10.9678L3.32362 18.4003C2.79206 18.9318 1.93024 18.9318 1.39868 18.4003C0.867124 17.8687 0.867124 17.0069 1.39868 16.4753L7.97453 9.89947Z" fill="#F26522" />
@@ -68,5 +68,59 @@ include __DIR__ . '/header.php';
         </div>
     </div>
 </header>
+
+<section class="about">
+    <div class="about-circle-1"><?= renderImg("about-circle-1.png", "lib") ?></div>
+    <div class="about-circle-2"><?= renderImg("about-circle-2.png", "lib") ?></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <h1 class="text-primary text-center pb-3">You won't find this kind of quality anywhere else.</h1>
+                <div class="font-articulat text-center">
+                    <h5 class="py-4 line-height-3">Excel Floor Polishing Pty Ltd uses high end floor polishing products and machinery to insure great and desirable results. We use Klindex Machines, Accessories & products which are ideal for the professional working in the flooring industry that regularly works on large projects and can even work comfortably in smaller areas for the optimum results. Our Professional machines delivers superior capabilities to polish marble, granite, terrazzo and concrete. Available to handle all types of flooring, from grinding, polishing to floor preparation.</h5>
+                    <h5 class="line-height-3">We are dedicated to making sure our customers receive the best products, the most cutting-edge technologies, superior prices, and exceptional customer service that exceeds their expectations. Everything we offer, from our free professional consultations to our flexible schedule is meant to show our commitment and dedication to our customers.</h5>
+                </div>
+            </div>
+        </div>
+        <div class="text-center pt-5">
+            <a href="#services" class="btn">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="font-articulat text-primary fw-800 h5">See our services</div>
+                    <div class="ps-3"><?= renderImg("arrow-down.png", "icons") ?></div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="services" id="services">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-5">
+                <h2 class="text-primary">Concrete Polishing</h2>
+                <div class="row">
+                    <div class="col-12 col-xxl-9">
+                        <h5 class="font-articulat line-height-3 pt-5">
+                            Polished concrete has become the ideal floor finish for many settings, including retail, restaurants, show room floors, manufacturing, garages, and residential interiors due to its low maintenance, durability and high resistance to staining. Polished concrete is also relatively inexpensive and can be stylish in its appearance, with many new colours from which you can choose.
+                        </h5>
+                    </div>
+                </div>
+                <div class="row align-items-center service-buttons pt-5">
+                    <div class="col-12 col-md-auto">
+                        <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
+                            Get a free quote
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-auto">
+                        <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
+                            Call us today
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6"></div>
+        </div>
+    </div>
+</section>
 
 <?php include __DIR__ . '/footer.php'; ?>

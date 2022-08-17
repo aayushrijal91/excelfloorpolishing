@@ -48,6 +48,33 @@ header {
     }
 }
 
+section.about {
+    padding: 26px 0 111px;
+    position: relative;
+
+    .about-circle-1 {
+        position: absolute;
+        top: -20%;
+        left: 0;
+    }
+
+    .about-circle-2 {
+        position: absolute;
+        bottom: 10%;
+        right: 0;
+    }
+}
+
+section.services {
+    .service-buttons {
+        .btn {
+            height: 55px;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
 footer {
     font-size: 0.875rem;
     background-color: #221f1f;
