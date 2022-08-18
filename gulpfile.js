@@ -23,7 +23,7 @@ function scripts() {
     const scriptsList = [
         './node_modules/jquery/dist/jquery.min.js',
         './node_modules/bootstrap/dist/js/bootstrap.min.js',
-        // 'node_modules/slick-carousel/slick/slick.min.js',
+        'node_modules/slick-carousel/slick/slick.min.js',
         'scripts/main.js',
 
     ];
@@ -41,7 +41,7 @@ function watchTask() {
     });
     watch("./scss/**/*.scss", style);
     watch('./scripts/**/*.js', scripts);
-    // watch("./images/**/*", imgSquash);
+    watch("./images/**/*", imgSquash);
     watch('./app/**/*.php').on('change', browserSync.reload);
     watch("./app/assets/js/**/*.js").on('change', browserSync.reload);
 }

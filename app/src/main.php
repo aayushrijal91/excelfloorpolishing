@@ -94,31 +94,386 @@ include __DIR__ . '/header.php';
 </section>
 
 <section class="services" id="services">
-    <div class="container">
-        <div class="row justify-content-between">
-            <div class="col-lg-5">
-                <h2 class="text-primary">Concrete Polishing</h2>
-                <div class="row">
-                    <div class="col-12 col-xxl-9">
-                        <h5 class="font-articulat line-height-3 pt-5">
-                            Polished concrete has become the ideal floor finish for many settings, including retail, restaurants, show room floors, manufacturing, garages, and residential interiors due to its low maintenance, durability and high resistance to staining. Polished concrete is also relatively inexpensive and can be stylish in its appearance, with many new colours from which you can choose.
-                        </h5>
+    <div class="container-fluid pe-xxl-0">
+        <div class="row justify-content-end">
+            <div class="col-12 col-xxl-11">
+                <div class="service-nav-slider">
+                    <div class="service-nav" d-service="0">
+                        Concrete Polishing
+                        <div class="reflection">Concrete Polishing</div>
                     </div>
-                </div>
-                <div class="row align-items-center service-buttons pt-5">
-                    <div class="col-12 col-md-auto">
-                        <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
-                            Get a free quote
-                        </a>
+                    <div class="service-nav" d-service="1">
+                        Marble Polishing &amp; Restoration
+                        <div class="reflection">Marble Polishing &amp; Restoration</div>
                     </div>
-                    <div class="col-12 col-md-auto">
-                        <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
-                            Call us today
-                        </a>
+                    <div class="service-nav" d-service="2">
+                        Sandstone Polishing
+                        <div class="reflection">Sandstone Polishing</div>
+                    </div>
+                    <div class="service-nav" d-service="3">
+                        Travertine Polishing
+                        <div class="reflection">Travertine Polishing</div>
+                    </div>
+                    <div class="service-nav" d-service="4">
+                        Limestone Polishing
+                        <div class="reflection">Limestone Polishing</div>
+                    </div>
+                    <div class="service-nav" d-service="5">
+                        Terrazo Polishing
+                        <div class="reflection">Terrazo Polishing</div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6"></div>
+        </div>
+    </div>
+    <div class="service-slider">
+        <div class="service-slider-content service-1">
+            <div class="container">
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-lg-5">
+                        <h2 class="text-primary">Concrete Polishing</h2>
+                        <div class="row">
+                            <div class="col-12 col-xxl-10">
+                                <h5 class="font-articulat line-height-3 pt-5">
+                                    Polished concrete has become the ideal floor finish for many settings, including retail, restaurants, show room floors, manufacturing, garages, and residential interiors due to its low maintenance, durability and high resistance to staining. Polished concrete is also relatively inexpensive and can be stylish in its appearance, with many new colours from which you can choose.
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="row align-items-center service-buttons pt-5">
+                            <div class="col-12 col-md-auto">
+                                <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
+                                    Get a free quote
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-auto">
+                                <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
+                                    Call us today
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-primary h5 font-articulat fw-700">What do we offer?</div>
+                        <div class="row offers g-3">
+                            <div class="col-auto">
+                                <div class="offer-box">Polished Concrete Floors &amp; Benchtops</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Grout &amp; Crack Sealing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Grinding</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Buffing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Sealing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Grout & Crack Repairs</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Anti Slip & Stain Resistant Coatings</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Decorative Concrete Coatings</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete & Aggregate Supply & Pouring</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-slider-content service-2">
+            <div class="container">
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-lg-5">
+                        <h2 class="text-primary">Marble Polishing &amp; Restoration</h2>
+                        <div class="row">
+                            <div class="col-12 col-xxl-10">
+                                <h5 class="font-articulat line-height-3 pt-5">
+                                    Polished concrete has become the ideal floor finish for many settings, including retail, restaurants, show room floors, manufacturing, garages, and residential interiors due to its low maintenance, durability and high resistance to staining. Polished concrete is also relatively inexpensive and can be stylish in its appearance, with many new colours from which you can choose.
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="row align-items-center service-buttons pt-5">
+                            <div class="col-12 col-md-auto">
+                                <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
+                                    Get a free quote
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-auto">
+                                <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
+                                    Call us today
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-primary h5 font-articulat fw-700">What do we offer?</div>
+                        <div class="row offers g-3">
+                            <div class="col-auto">
+                                <div class="offer-box">Marble Grinding</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Marble Sealing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Marble Polishing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Marble Restoration</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Marble Crack & Stain Repair</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-slider-content service-3">
+            <div class="container">
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-lg-5">
+                        <h2 class="text-primary">Sandstone Polishing</h2>
+                        <div class="row">
+                            <div class="col-12 col-xxl-10">
+                                <h5 class="font-articulat line-height-3 pt-5">
+                                    Polished concrete has become the ideal floor finish for many settings, including retail, restaurants, show room floors, manufacturing, garages, and residential interiors due to its low maintenance, durability and high resistance to staining. Polished concrete is also relatively inexpensive and can be stylish in its appearance, with many new colours from which you can choose.
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="row align-items-center service-buttons pt-5">
+                            <div class="col-12 col-md-auto">
+                                <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
+                                    Get a free quote
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-auto">
+                                <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
+                                    Call us today
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-primary h5 font-articulat fw-700">What do we offer?</div>
+                        <div class="row offers g-3">
+                            <div class="col-auto">
+                                <div class="offer-box">Polished Concrete Floors &amp; Benchtops</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Grout &amp; Crack Sealing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Grinding</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Buffing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Sealing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Grout & Crack Repairs</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Anti Slip & Stain Resistant Coatings</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Decorative Concrete Coatings</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete & Aggregate Supply & Pouring</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-slider-content service-4">
+            <div class="container">
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-lg-5">
+                        <h2 class="text-primary">Travertine Polishing</h2>
+                        <div class="row">
+                            <div class="col-12 col-xxl-10">
+                                <h5 class="font-articulat line-height-3 pt-5">
+                                    Polished concrete has become the ideal floor finish for many settings, including retail, restaurants, show room floors, manufacturing, garages, and residential interiors due to its low maintenance, durability and high resistance to staining. Polished concrete is also relatively inexpensive and can be stylish in its appearance, with many new colours from which you can choose.
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="row align-items-center service-buttons pt-5">
+                            <div class="col-12 col-md-auto">
+                                <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
+                                    Get a free quote
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-auto">
+                                <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
+                                    Call us today
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-primary h5 font-articulat fw-700">What do we offer?</div>
+                        <div class="row offers g-3">
+                            <div class="col-auto">
+                                <div class="offer-box">Polished Concrete Floors &amp; Benchtops</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Grout &amp; Crack Sealing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Grinding</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Buffing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Sealing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Grout & Crack Repairs</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Anti Slip & Stain Resistant Coatings</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Decorative Concrete Coatings</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete & Aggregate Supply & Pouring</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-slider-content service-5">
+            <div class="container">
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-lg-5">
+                        <h2 class="text-primary">Limestone Polishing</h2>
+                        <div class="row">
+                            <div class="col-12 col-xxl-10">
+                                <h5 class="font-articulat line-height-3 pt-5">
+                                    Polished concrete has become the ideal floor finish for many settings, including retail, restaurants, show room floors, manufacturing, garages, and residential interiors due to its low maintenance, durability and high resistance to staining. Polished concrete is also relatively inexpensive and can be stylish in its appearance, with many new colours from which you can choose.
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="row align-items-center service-buttons pt-5">
+                            <div class="col-12 col-md-auto">
+                                <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
+                                    Get a free quote
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-auto">
+                                <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
+                                    Call us today
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-primary h5 font-articulat fw-700">What do we offer?</div>
+                        <div class="row offers g-3">
+                            <div class="col-auto">
+                                <div class="offer-box">Polished Concrete Floors &amp; Benchtops</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Grout &amp; Crack Sealing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Grinding</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Buffing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Sealing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Grout & Crack Repairs</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Anti Slip & Stain Resistant Coatings</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Decorative Concrete Coatings</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete & Aggregate Supply & Pouring</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-slider-content service-6">
+            <div class="container">
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-lg-5">
+                        <h2 class="text-primary">Terrazo Polishing</h2>
+                        <div class="row">
+                            <div class="col-12 col-xxl-10">
+                                <h5 class="font-articulat line-height-3 pt-5">
+                                    Polished concrete has become the ideal floor finish for many settings, including retail, restaurants, show room floors, manufacturing, garages, and residential interiors due to its low maintenance, durability and high resistance to staining. Polished concrete is also relatively inexpensive and can be stylish in its appearance, with many new colours from which you can choose.
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="row align-items-center service-buttons pt-5">
+                            <div class="col-12 col-md-auto">
+                                <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
+                                    Get a free quote
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-auto">
+                                <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
+                                    Call us today
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-primary h5 font-articulat fw-700">What do we offer?</div>
+                        <div class="row offers g-3">
+                            <div class="col-auto">
+                                <div class="offer-box">Polished Concrete Floors &amp; Benchtops</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Grout &amp; Crack Sealing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Grinding</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Buffing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Sealing</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete Grout & Crack Repairs</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Anti Slip & Stain Resistant Coatings</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Decorative Concrete Coatings</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="offer-box">Concrete & Aggregate Supply & Pouring</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

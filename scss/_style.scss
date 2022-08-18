@@ -66,11 +66,96 @@ section.about {
 }
 
 section.services {
-    .service-buttons {
-        .btn {
-            height: 55px;
+    // padding-top: 105px;
+
+    .service-nav-slider {
+        overflow-y: visible;
+
+        .slick-track {
             display: flex;
             align-items: center;
+            margin-left: 70px;
+        }
+
+        .service-nav {
+            font-size: 1.5625rem; // 25px
+            text-align: center;
+            color: $tertiary;
+            margin: 0 35px;
+            padding: 105px 0;
+
+            .reflection {
+                display: none;
+            }
+
+            &.slick-current {
+                color: $secondary;
+                border-radius: 100px;
+                border-top: 4px solid $secondary;
+                border-left: 2px solid $secondary;
+                border-right: 2px solid $secondary;
+                padding: 5px 22px;
+                position: relative;
+
+                .reflection {
+                    display: block;
+                    position: absolute;
+                    border-radius: 100px;
+                    border-top: 4px solid $secondary;
+                    border-left: 2px solid $secondary;
+                    border-right: 2px solid $secondary;
+                    padding: 5px 16px;
+                    width: 100%;
+                    transform: scale(1, -1);
+                    left: 0;
+                    top: 110%;
+                    opacity: 0.2;
+                }
+            }
+        }
+    }
+
+    .service-slider {
+        .slick-track {
+            display: flex;
+        }
+
+        .slick-slide {
+            height: inherit;
+        }
+
+        .service-slider-content {
+            padding: 20px 0 198px;
+
+            .service-buttons {
+                .btn {
+                    height: 55px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+            $services: 1, 2, 3, 4, 5, 6;
+
+            @each $service in $services {
+                &.service-#{$service} {
+                    background: imgUrl("service-#{$service}.png") center bottom;
+                    background-size: contain;
+                }
+            }
+        }
+    }
+
+    .offers {
+        padding-top: 50px;
+
+        .offer-box {
+            border: 2px solid $primary;
+            font-family: $font-articulat;
+            font-weight: 700;
+            font-size: 1rem;
+            padding: 11px 17px;
+            color: $primary;
         }
     }
 }
