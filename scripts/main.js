@@ -33,6 +33,17 @@ $(() => {
         asNavFor: '.service-slider',
     });
 
+    $(".type-slider").slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplaySpeed: 0,
+        speed: 2000,
+        cssEase: 'linear',
+        infinite: true,
+        autoplay: true,
+    });
+
     let serviceSlider = $('.service-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -40,7 +51,19 @@ $(() => {
         asNavFor: '.service-nav-slider',
     });
 
-    $('.service-nav').on('click', function() {
+    $('.brands-slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplaySpeed: 0,
+        speed: 2000,
+        cssEase: 'linear',
+        infinite: true,
+        variableWidth: true,
+        autoplay: true,
+    })
+
+    $('.service-nav').on('click', function () {
         serviceSlider.slick('slickGoTo', $(this).attr('d-service'));
     })
 })

@@ -160,9 +160,85 @@ section.services {
     }
 }
 
+section.business-type {
+    background: imgUrl("business-type.png") center top $secondary;
+    background-size: contain;
+    color: $white;
+
+    .hero {
+        padding-top: 108px;
+    }
+
+    .type-slider {
+        .slick-slide {
+            padding: 91px 0 84px;
+            filter: drop-shadow(3px 6px 19px rgba(0, 0, 0, 0.3));
+        }
+    }
+
+    .description {
+        padding-top: 36px;
+    }
+}
+
+section.gallery {
+    background: imgUrl("gallery.png");
+    background-size: cover;
+    padding: 164px 0 61px;
+
+    .brands-slider {
+        .slick-track {
+            display: flex;
+        }
+
+        .slick-slide {
+            height: inherit;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 40px;
+        }
+    }
+}
+
+section.gmb {
+    position: relative;
+    margin-bottom: -8px;
+    border-top: 16px solid $primary;
+
+    .map-frame {
+        height: 965px;
+    }
+
+    .social-links {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+
+        @include media-breakpoint-down(xl) {
+            left: 42px;
+        }
+
+        @include media-breakpoint-down(sm) {
+            left: 0;
+            top: 347px;
+            padding: 0 16px;
+        }
+
+        .gmb-img {
+            border-radius: 20px;
+            overflow: hidden;
+            filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.25));
+        }
+    }
+}
+
 footer {
-    font-size: 0.875rem;
-    background-color: #221f1f;
+    font-size: 1rem;
+    background-color: $secondary;
+    color: $white;
+    font-family: $font-articulat;
+    padding: 32px 0;
 
     @include media-breakpoint-down(sm) {
         font-size: 0.61rem;

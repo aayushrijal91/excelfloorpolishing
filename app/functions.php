@@ -2,7 +2,7 @@
 include __DIR__ . '/env.php';
 
 $site = "Excel Floor Polishing";
-$phone_number = "0432 406 340";
+$phone_number = "(02) 8999 5910";
 $admin_email = 'arijal@aiims.com.au';
 $bcc_email = "";
 $no_reply_email = 'info@website.com.au';

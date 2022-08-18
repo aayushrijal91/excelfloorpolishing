@@ -478,4 +478,118 @@ include __DIR__ . '/header.php';
     </div>
 </section>
 
+<section class="business-type">
+    <div class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Floor polishing is beneficial<br> for all kinds of business</h2>
+                </div>
+                <div class="col-lg-4 py-5">
+                    <div class="h5 font-articulat line-height-3">Not sure if we service you? Check out the range of residential, commercial and industrial buildings we’ve done. Floor polishing is suitable for a huge range of homes and businesses, give us a call if you have any questions!</div>
+                </div>
+                <div class="col-12">
+                    <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 py-3 fw-700 h5">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.122 6.12354C16.8528 6.12354 19.8765 9.15124 19.8765 12.882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M13.122 1.64917C19.3238 1.64917 24.351 6.67638 24.351 12.8781" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M1.68176 2.54313C-1.78486 6.00975 0.27967 13.6948 6.29445 19.7096C12.3052 25.7244 19.9903 27.7849 23.4569 24.3182C24.5054 23.2657 24.985 20.8801 24.985 20.8801C25.0622 20.4858 24.8346 20.0469 24.4769 19.9047L18.1818 17.3891C17.8241 17.2468 17.2917 17.3647 17.0032 17.6573L15.1825 19.478C14.833 19.8275 14.3331 19.9128 13.9348 19.734C13.9023 19.7177 13.8739 19.7015 13.8414 19.6852C13.8292 19.6771 13.8129 19.669 13.8007 19.6609C12.4149 18.9049 10.9478 17.8076 9.57006 16.4259C8.18829 15.0482 7.091 13.5811 6.33509 12.1952C6.32696 12.183 6.31883 12.1708 6.31477 12.1586C6.29851 12.1261 6.28225 12.0936 6.266 12.0652C6.08718 11.6669 6.17253 11.167 6.51797 10.8175L8.34272 8.99275C8.63533 8.70421 8.75319 8.17182 8.61095 7.81418L6.09531 1.52305C5.95307 1.16542 5.51415 0.93783 5.11994 1.01505C5.11994 1.01505 2.73435 1.49054 1.68176 2.54313V2.54313Z" fill="white" />
+                        </svg>
+
+                        <span class="ps-2"><?= $phone_number ?></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row justify-content-end">
+            <div class="col-12 col-xxl-11 ps-xxl-8">
+                <div class="type-slider">
+                    <div><?= renderImg("type-residentials.png", "lib") ?></div>
+                    <div><?= renderImg("type-kitchens.png", "lib") ?></div>
+                    <div><?= renderImg("type-bathrooms.png", "lib") ?></div>
+                    <div><?= renderImg("type-garages.png", "lib") ?></div>
+                    <div><?= renderImg("type-driveways.png", "lib") ?></div>
+                    <div><?= renderImg("type-patios.png", "lib") ?></div>
+                    <div><?= renderImg("type-pools.png", "lib") ?></div>
+                    <div><?= renderImg("type-shopping-centers.png", "lib") ?></div>
+                    <div><?= renderImg("type-factories.png", "lib") ?></div>
+                    <div><?= renderImg("type-showrooms.png", "lib") ?></div>
+                    <div><?= renderImg("type-cafes.png", "lib") ?></div>
+                    <div><?= renderImg("type-childcare.png", "lib") ?></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="description">
+        <div class="container">
+            <div class="row gx-xl-6">
+                <div class="col-auto">
+                    <?= renderImg("polishing-guy.png", "lib") ?>
+                </div>
+                <div class="col py-xl-6">
+                    <h2>10 years of Floor Polishing</h2>
+                    <h4 class="font-articulat fw-700 py-4">Get your heavy duty, low maintenance and non-slip floor today for your home or business!</h4>
+                    <p class="line-height-3 h5 font-articulat py-4">
+                        Excel Floor Polishing Pty Ltd has over 10 years of experience providing expert flooring solutions to customers across a wide range of industries. We are a highly reputable and dependable company, offering grinding, polishing, buffing and sealing of concrete, marble, terrazzo, granite, insitu, limestone and sandstone surfaces.
+                    </p>
+                    <a href="#services" class="btn px-0">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="font-articulat text-white fw-700 h5">Get your free quote now</div>
+                            <div class="ps-3"><?= renderImg("arrow-down-white.png", "icons") ?></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery">
+    <div class="container">
+        <h2 class="text-center text-primary">Projects We've Done</h2>
+        <div class="row g-3 pt-5 pt-xl-7">
+            <div class="col-4"><?= renderImg("gallery-1.jpg", "lib", "w-100") ?></div>
+            <div class="col-4"><?= renderImg("gallery-2.jpg", "lib", "w-100") ?></div>
+            <div class="col-4"><?= renderImg("gallery-3.jpg", "lib", "w-100") ?></div>
+            <div class="col-3"><?= renderImg("gallery-4.jpg", "lib", "w-100") ?></div>
+            <div class="col-3"><?= renderImg("gallery-5.jpg", "lib", "w-100") ?></div>
+            <div class="col-3"><?= renderImg("gallery-6.jpg", "lib", "w-100") ?></div>
+            <div class="col-3"><?= renderImg("gallery-7.jpg", "lib", "w-100") ?></div>
+            <div class="col-8"><?= renderImg("gallery-8.jpg", "lib", "w-100") ?></div>
+            <div class="col-4"><?= renderImg("gallery-9.jpg", "lib", "w-100") ?></div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-7 pt-xxl-10">
+        <h4 class="text-center text-dark font-articulat fw-700">Brands we've worked with</h4>
+        <div class="row justify-content-end py-5">
+            <div class="col-12 col-xxl-11 ps-xxl-8">
+                <div class="brands-slider">
+                    <div class="brands"><?= renderImg("klindex.png", "logo") ?></div>
+                    <div class="brands"><?= renderImg("castle-tower.png", "logo") ?></div>
+                    <div class="brands"><?= renderImg("versatile.png", "logo") ?></div>
+                    <div class="brands"><?= renderImg("constructioncontrol.png", "logo") ?></div>
+                    <div class="brands"><?= renderImg("built.png", "logo") ?></div>
+                    <div class="brands"><?= renderImg("us-embassay.png", "logo") ?></div>
+                    <div class="brands"><?= renderImg("canberra.png", "logo") ?></div>
+                    <div class="brands"><?= renderImg("mlc-center.png", "logo") ?></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gmb">
+    <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424141.6978944982!2d150.93197474999997!3d-33.84824395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20NSW!5e0!3m2!1sen!2sau!4v1660795175794!5m2!1sen!2sau" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="social-links">
+        <div class="gmb-wrapper">
+            <div class="gmb-img"><?= renderImg("gmb.png", "lib") ?></div>
+        </div>
+    </div>
+</section>
+
 <?php include __DIR__ . '/footer.php'; ?>
