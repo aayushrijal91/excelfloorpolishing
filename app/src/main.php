@@ -7,21 +7,28 @@ include __DIR__ . '/header.php';
     <div class="header-top-bar">
         <div class="container">
             <div class="row justify-content-center justify-content-lg-between align-items-center">
-                <div class="col-auto">
+                <div class="col-6 col-md-auto">
                     <a href="./">
                         <?= renderImg("logo.png", "logo") ?>
                     </a>
                 </div>
-                <div class="col-auto top-buttons">
-                    <div class="row justify-content-center justify-content-lg-end align-items-center">
-                        <div class="col-12 col-md-auto">
-                            <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill px-5 fw-700 h3">
-                                <?= $phone_number ?>
+                <div class="col col-md-auto top-buttons">
+                    <div class="row justify-content-center justify-content-lg-end align-items-center gx-2 gx-md-3">
+                        <div class="col-auto">
+                            <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill px-md-5 fw-700 h3 phone-button">
+                                <div class="d-none d-md-block"><?= $phone_number ?></div>
+                                <div class="d-md-none">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.99988 4.03595C10.1699 4.03595 11.9287 5.79705 11.9287 7.9671" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.99988 1.43335C11.6072 1.43335 14.5313 4.35749 14.5313 7.96479" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1.34553 1.95324C-0.670875 3.96964 0.529983 8.43976 4.02854 11.9383C7.52474 15.4369 11.9949 16.6354 14.0113 14.619C14.6212 14.0067 14.9001 12.6191 14.9001 12.6191C14.945 12.3898 14.8126 12.1345 14.6046 12.0518L10.9429 10.5885C10.7349 10.5058 10.4252 10.5744 10.2574 10.7446L9.19838 11.8036C8.99508 12.0069 8.70432 12.0565 8.47266 11.9525C8.45375 11.9431 8.43721 11.9336 8.41829 11.9241C8.4112 11.9194 8.40175 11.9147 8.39465 11.91C7.58857 11.4703 6.7352 10.832 5.93384 10.0283C5.13012 9.22694 4.49187 8.37357 4.05218 7.56749C4.04746 7.5604 4.04273 7.5533 4.04036 7.54621C4.03091 7.5273 4.02145 7.50839 4.012 7.49184C3.90799 7.26018 3.95763 6.96942 4.15856 6.76613L5.21995 5.70474C5.39015 5.5369 5.4587 5.22723 5.37596 5.01921L3.91271 1.3599C3.82998 1.15188 3.57468 1.0195 3.34538 1.06442C3.34538 1.06442 1.95777 1.34099 1.34553 1.95324Z" fill="white" />
+                                    </svg>
+                                </div>
                             </a>
                         </div>
-                        <div class="col-12 col-md-auto">
+                        <div class="col-auto">
                             <a href="#form" class="btn border-white bordered rounded-pill">
-                                <div class="px-4 fw-800 line-height-1 h5">Get Your Free Quote</div>
+                                <div class="px-2 px-md-4 fw-800 line-height-1 h5">Get <span class="d-none d-md-inline-block">Your Free</span> Quote</div>
                                 <div class="arrow">
                                     <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M7.97453 9.89947L1.39867 3.32361C0.86711 2.79205 0.867111 1.93023 1.39867 1.39867C1.93023 0.867111 2.79205 0.867111 3.32361 1.39867L10.7559 8.83098C10.7945 8.86198 10.8319 8.89539 10.8677 8.93122C11.1353 9.19885 11.2682 9.55021 11.2664 9.90098C11.2674 10.2507 11.1346 10.6008 10.8677 10.8677C10.8319 10.9035 10.7946 10.9369 10.756 10.9678L3.32362 18.4003C2.79206 18.9318 1.93024 18.9318 1.39868 18.4003C0.867124 17.8687 0.867124 17.0069 1.39868 16.4753L7.97453 9.89947Z" fill="#F26522" />
@@ -41,24 +48,26 @@ include __DIR__ . '/header.php';
                 <div class="col-xl-6" data-aos="fade-left">
                     <h1 class="text-primary-gradient">Sydney's Leading Floor Polishing Company</h1>
                     <h3 class="py-3 font-articulat text-dark">Servicing Residential, Commercial & Industrial Services</h3>
-                    <div class="row py-4">
-                        <div class="col-6 col-xl-5">
-                            <div class="row">
+                    <div class="row py-4 justify-content-center justify-content-md-start high-quality">
+                        <div class="col-5 col-md-6 col-xl-5">
+                            <div class="row justify-content-center">
                                 <div class="col-auto">
-                                    <?= renderImg("highest-quality.png", "lib") ?>
+                                    <?= renderImg("highest-quality-mobile.png", "lib", "d-md-none") ?>
+                                    <?= renderImg("highest-quality.png", "lib", "d-none d-md-block") ?>
                                 </div>
-                                <div class="col">
-                                    <h3 class="letter-spacing-035 fw-600 text-uppercase text-black py-4">The Best Machines</h3>
+                                <div class="col-12 col-md">
+                                    <h3 class="letter-spacing-035 fw-600 text-uppercase text-black py-2 py-md-4 text-center text-md-start">The Best Machines</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 col-xl-5">
-                            <div class="row">
+                        <div class="col-5 col-md-6 col-xl-5">
+                            <div class="row justify-content-center">
                                 <div class="col-auto">
-                                    <?= renderImg("highest-quality.png", "lib") ?>
+                                    <?= renderImg("highest-quality-mobile.png", "lib", "d-md-none") ?>
+                                    <?= renderImg("highest-quality.png", "lib", "d-none d-md-block") ?>
                                 </div>
-                                <div class="col">
-                                    <h3 class="letter-spacing-035 fw-600 text-uppercase text-black py-4">Top Quality Service</h3>
+                                <div class="col-12 col-md">
+                                    <h3 class="letter-spacing-035 fw-600 text-uppercase text-black py-2 py-md-4 text-center text-md-start">Top Quality Service</h3>
                                 </div>
                             </div>
                         </div>
@@ -74,12 +83,12 @@ include __DIR__ . '/header.php';
     <div class="about-circle-2"><?= renderImg("about-circle-2.png", "lib") ?></div>
     <div class="container" data-aos="fade-up">
         <div class="row justify-content-center">
-            <div class="col-lg-7">
+            <div class="col-10 col-lg-7">
                 <h1 class="text-primary text-center pb-3">You won't find this kind of quality anywhere else.</h1>
-                <div class="font-articulat text-center">
-                    <h5 class="py-4 line-height-3">Excel Floor Polishing Pty Ltd uses high end floor polishing products and machinery to insure great and desirable results. We use Klindex Machines, Accessories & products which are ideal for the professional working in the flooring industry that regularly works on large projects and can even work comfortably in smaller areas for the optimum results. Our Professional machines delivers superior capabilities to polish marble, granite, terrazzo and concrete. Available to handle all types of flooring, from grinding, polishing to floor preparation.</h5>
-                    <h5 class="line-height-3">We are dedicated to making sure our customers receive the best products, the most cutting-edge technologies, superior prices, and exceptional customer service that exceeds their expectations. Everything we offer, from our free professional consultations to our flexible schedule is meant to show our commitment and dedication to our customers.</h5>
-                </div>
+            </div>
+            <div class="col-12 col-lg-7 font-articulat text-center">
+                <h5 class="py-4 line-height-3">Excel Floor Polishing Pty Ltd uses high end floor polishing products and machinery to insure great and desirable results. We use Klindex Machines, Accessories & products which are ideal for the professional working in the flooring industry that regularly works on large projects and can even work comfortably in smaller areas for the optimum results. Our Professional machines delivers superior capabilities to polish marble, granite, terrazzo and concrete. Available to handle all types of flooring, from grinding, polishing to floor preparation.</h5>
+                <h5 class="line-height-3">We are dedicated to making sure our customers receive the best products, the most cutting-edge technologies, superior prices, and exceptional customer service that exceeds their expectations. Everything we offer, from our free professional consultations to our flexible schedule is meant to show our commitment and dedication to our customers.</h5>
             </div>
         </div>
         <div class="text-center pt-5">
@@ -134,25 +143,25 @@ include __DIR__ . '/header.php';
                         <h2 class="text-primary">Concrete Polishing</h2>
                         <div class="row">
                             <div class="col-12 col-xxl-10">
-                                <h5 class="font-articulat line-height-3 pt-5">
+                                <h5 class="font-articulat line-height-3 pt-4 pt-md-5">
                                     Polished concrete has become the ideal floor finish for many settings, including retail, restaurants, show room floors, manufacturing, garages, and residential interiors due to its low maintenance, durability and high resistance to staining. Polished concrete is also relatively inexpensive and can be stylish in its appearance, with many new colours from which you can choose.
                                 </h5>
                             </div>
                         </div>
-                        <div class="row align-items-center service-buttons pt-5">
-                            <div class="col-12 col-md-auto">
+                        <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-none d-md-flex">
+                            <div class="col-auto">
                                 <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
                                     Get a free quote
                                 </a>
                             </div>
-                            <div class="col-12 col-md-auto">
+                            <div class="col-auto">
                                 <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
                                     Call us today
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 pt-4 pt-md-0">
                         <div class="text-primary h5 font-articulat fw-700">What do we offer?</div>
                         <div class="row offers g-3">
                             <div class="col-auto">
@@ -183,6 +192,18 @@ include __DIR__ . '/header.php';
                                 <div class="offer-box">Concrete & Aggregate Supply & Pouring</div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-md-none">
+                    <div class="col-auto">
+                        <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
+                            Get a free quote
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
+                            Call us today
+                        </a>
                     </div>
                 </div>
             </div>

@@ -31,6 +31,15 @@ $(() => {
         arrows: false,
         variableWidth: true,
         asNavFor: '.service-slider',
+        responsive: [
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: true,
+                }
+            }
+        ]
     });
 
     AOS.refresh();

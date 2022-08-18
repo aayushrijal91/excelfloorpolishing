@@ -37,6 +37,24 @@ header {
                     justify-content: center;
                     align-items: center;
                     border-radius: 50%;
+
+                    @include media-breakpoint-down(sm) {
+                        height: 21px;
+                        width: 21px;
+
+                        svg {
+                            height: 10px;
+                        }
+                    }
+                }
+
+                @include media-breakpoint-down(sm) {
+                    height: 29px;
+                    padding: 2px;
+
+                    &.phone-button {
+                        width: 29px;
+                    }
                 }
             }
         }
@@ -46,6 +64,16 @@ header {
         background: imgUrl("banner.png");
         background-size: contain;
         padding: 161px 0 124px;
+
+        @include media-breakpoint-down(sm) {
+            background: imgUrl("banner-mobile.png");
+            background-size: contain;
+            padding: 57px 0 69px;
+
+            .high-quality {
+                padding-top: 245px !important;
+            }
+        }
     }
 }
 
@@ -57,17 +85,27 @@ section.about {
         position: absolute;
         top: -20%;
         left: 0;
+
+        @include media-breakpoint-down(sm) {
+            width: 83px;
+            top: 7%;
+        }
     }
 
     .about-circle-2 {
         position: absolute;
         bottom: 10%;
         right: 0;
+
+        @include media-breakpoint-down(sm) {
+            width: 83px;
+            bottom: 15%;
+        }
     }
 }
 
 section.services {
-    // padding-top: 105px;
+    background-color: $grey;
 
     .service-nav-slider {
         overflow-y: visible;
@@ -87,6 +125,10 @@ section.services {
 
             .reflection {
                 display: none;
+            }
+
+            @include media-breakpoint-down(sm) {
+                margin: 0 20px;
             }
 
             &.slick-current {
@@ -126,13 +168,21 @@ section.services {
         }
 
         .service-slider-content {
-            padding: 20px 0 198px;
+            padding: 20px 0 81px;
+
+            @include media-breakpoint-up(md) {
+                padding: 20px 0 198px;
+            }
 
             .service-buttons {
                 .btn {
                     height: 55px;
                     display: flex;
                     align-items: center;
+
+                    @include media-breakpoint-down(sm) {
+                        height: 34px;
+                    }
                 }
             }
 
@@ -141,14 +191,25 @@ section.services {
             @each $service in $services {
                 &.service-#{$service} {
                     background: imgUrl("service-#{$service}.png") center bottom;
-                    background-size: contain;
+
+                    @include media-breakpoint-up(md) {
+                        background-size: contain;
+                    }
+
+                    @include media-breakpoint-down(sm) {
+                        background-size: 500%;
+                    }
                 }
             }
         }
     }
 
     .offers {
-        padding-top: 50px;
+        padding-top: 34px;
+
+        @include media-breakpoint-up(md) {
+            padding-top: 50px;
+        }
 
         .offer-box {
             border: 2px solid $primary;
@@ -157,6 +218,11 @@ section.services {
             font-size: 1rem;
             padding: 11px 17px;
             color: $primary;
+
+            @include media-breakpoint-down(sm) {
+                font-size: 0.875rem;
+                padding: 7px 11px;
+            }
         }
     }
 }
