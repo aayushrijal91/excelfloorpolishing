@@ -503,14 +503,14 @@ include __DIR__ . '/header.php';
     <div class="hero">
         <div class="container">
             <div class="row" data-aos="fade-right">
-                <div class="col-12">
-                    <h2>Floor polishing is beneficial<br> for all kinds of business</h2>
+                <div class="col-10 col-md-12">
+                    <h2>Floor polishing is beneficial<br class="d-none d-md-block"> for all kinds of business</h2>
                 </div>
-                <div class="col-lg-4 py-5">
+                <div class="col-8 col-lg-4 py-4 py-md-5">
                     <div class="h5 font-articulat line-height-3">Not sure if we service you? Check out the range of residential, commercial and industrial buildings we’ve done. Floor polishing is suitable for a huge range of homes and businesses, give us a call if you have any questions!</div>
                 </div>
-                <div class="col-12">
-                    <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 py-3 fw-700 h5">
+                <div class="col-12 pt-4 pt-md-0">
+                    <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-3 px-md-4 py-2 py-md-3 fw-700 h5">
                         <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13.122 6.12354C16.8528 6.12354 19.8765 9.15124 19.8765 12.882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M13.122 1.64917C19.3238 1.64917 24.351 6.67638 24.351 12.8781" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -524,8 +524,8 @@ include __DIR__ . '/header.php';
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row justify-content-end">
+    <div class="container-fluid pe-0">
+        <div class="row ge-0 justify-content-end">
             <div class="col-12 col-xxl-11 ps-xxl-8">
                 <div class="type-slider">
                     <div><?= renderImg("type-residentials.png", "lib") ?></div>
@@ -548,13 +548,13 @@ include __DIR__ . '/header.php';
     <div class="description">
         <div class="container">
             <div class="row gx-xl-6">
-                <div class="col-auto" data-aos="fade-right">
+                <div class="col-auto d-none d-md-block" data-aos="fade-right">
                     <?= renderImg("polishing-guy.png", "lib") ?>
                 </div>
                 <div class="col py-xl-6" data-aos="fade-left">
-                    <h2>10 years of Floor Polishing</h2>
+                    <h2>10 Years of Floor<br class="d-md-none"> Polishing</h2>
                     <h4 class="font-articulat fw-700 py-4">Get your heavy duty, low maintenance and non-slip floor today for your home or business!</h4>
-                    <p class="line-height-3 h5 font-articulat py-4">
+                    <p class="line-height-3 h5 font-articulat pb-4 py-md-4">
                         Excel Floor Polishing Pty Ltd has over 10 years of experience providing expert flooring solutions to customers across a wide range of industries. We are a highly reputable and dependable company, offering grinding, polishing, buffing and sealing of concrete, marble, terrazzo, granite, insitu, limestone and sandstone surfaces.
                     </p>
                     <a href="#services" class="btn px-0">
@@ -564,6 +564,9 @@ include __DIR__ . '/header.php';
                         </div>
                     </a>
                 </div>
+                <div class="col-auto d-md-none" data-aos="fade-right">
+                    <?= renderImg("polishing-guy.png", "lib", "pt-4") ?>
+                </div>
             </div>
         </div>
     </div>
@@ -572,20 +575,31 @@ include __DIR__ . '/header.php';
 <section class="gallery">
     <div class="container">
         <h2 class="text-center text-primary" data-aos="fade-up">Projects We've Done</h2>
-        <div class="row g-3 pt-5 pt-xl-7">
-            <div class="col-4" data-aos="flip-up"><?= renderImg("gallery-1.jpg", "lib", "w-100") ?></div>
-            <div class="col-4" data-aos="flip-up"><?= renderImg("gallery-2.jpg", "lib", "w-100") ?></div>
-            <div class="col-4" data-aos="flip-up"><?= renderImg("gallery-3.jpg", "lib", "w-100") ?></div>
-            <div class="col-3" data-aos="flip-up"><?= renderImg("gallery-4.jpg", "lib", "w-100") ?></div>
-            <div class="col-3" data-aos="flip-up"><?= renderImg("gallery-5.jpg", "lib", "w-100") ?></div>
-            <div class="col-3" data-aos="flip-up"><?= renderImg("gallery-6.jpg", "lib", "w-100") ?></div>
-            <div class="col-3" data-aos="flip-up"><?= renderImg("gallery-7.jpg", "lib", "w-100") ?></div>
-            <div class="col-8" data-aos="flip-up"><?= renderImg("gallery-8.jpg", "lib", "w-100") ?></div>
-            <div class="col-4" data-aos="flip-up"><?= renderImg("gallery-9.jpg", "lib", "w-100") ?></div>
+        <div class="row g-3 pt-5 pt-xl-7 d-none d-md-flex">
+            <div class="col-12 col-md-4" data-aos="flip-up"><?= renderImg("gallery-1.jpg", "lib", "w-100") ?></div>
+            <div class="col-12 col-md-4" data-aos="flip-up"><?= renderImg("gallery-2.jpg", "lib", "w-100") ?></div>
+            <div class="col-12 col-md-4" data-aos="flip-up"><?= renderImg("gallery-3.jpg", "lib", "w-100") ?></div>
+            <div class="col-12 col-md-3" data-aos="flip-up"><?= renderImg("gallery-4.jpg", "lib", "w-100") ?></div>
+            <div class="col-12 col-md-3" data-aos="flip-up"><?= renderImg("gallery-5.jpg", "lib", "w-100") ?></div>
+            <div class="col-12 col-md-3" data-aos="flip-up"><?= renderImg("gallery-6.jpg", "lib", "w-100") ?></div>
+            <div class="col-12 col-md-3" data-aos="flip-up"><?= renderImg("gallery-7.jpg", "lib", "w-100") ?></div>
+            <div class="col-12 col-md-8" data-aos="flip-up"><?= renderImg("gallery-8.jpg", "lib", "w-100") ?></div>
+            <div class="col-12 col-md-4" data-aos="flip-up"><?= renderImg("gallery-9.jpg", "lib", "w-100") ?></div>
+        </div>
+        <div class="gallery-slider d-lg-none">
+            <div class=""><?= renderImg("gallery-1.jpg", "lib", "w-100") ?></div>
+            <div class=""><?= renderImg("gallery-2.jpg", "lib", "w-100") ?></div>
+            <div class=""><?= renderImg("gallery-3.jpg", "lib", "w-100") ?></div>
+            <div class=""><?= renderImg("gallery-4.jpg", "lib", "w-100") ?></div>
+            <div class=""><?= renderImg("gallery-5.jpg", "lib", "w-100") ?></div>
+            <div class=""><?= renderImg("gallery-6.jpg", "lib", "w-100") ?></div>
+            <div class=""><?= renderImg("gallery-7.jpg", "lib", "w-100") ?></div>
+            <div class=""><?= renderImg("gallery-8.jpg", "lib", "w-100") ?></div>
+            <div class=""><?= renderImg("gallery-9.jpg", "lib", "w-100") ?></div>
         </div>
     </div>
 
-    <div class="container-fluid pt-7 pt-xxl-10">
+    <div class="container-fluid pt-4 pt-md-7 pt-xxl-10">
         <h4 class="text-center text-dark font-articulat fw-700">Brands we've worked with</h4>
         <div class="row justify-content-end py-5">
             <div class="col-12 col-xxl-11 ps-xxl-8">

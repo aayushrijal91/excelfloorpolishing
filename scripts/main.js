@@ -53,6 +53,14 @@ $(() => {
         cssEase: 'linear',
         infinite: true,
         autoplay: true,
+        responsive: [
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }
+        ]
     });
 
     AOS.refresh();
@@ -63,6 +71,8 @@ $(() => {
         arrows: false,
         asNavFor: '.service-nav-slider',
     });
+    
+    AOS.refresh();
 
     $('.brands-slider').slick({
         slidesToShow: 5,
@@ -74,12 +84,33 @@ $(() => {
         infinite: true,
         variableWidth: true,
         autoplay: true,
+        responsive: [
+            {
+                breakpoint: 540,
+                settings: {
+                    speed: 3000,
+                    slidesToShow: 2,
+                    variableWidth: false,
+                }
+            }
+        ]
     });
 
     AOS.refresh();
 
     $('.service-nav').on('click', function () {
         serviceSlider.slick('slickGoTo', $(this).attr('d-service'));
+    });
+
+    AOS.refresh();
+
+    $('.gallery-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        cssEase: 'linear',
+        speed: 3000,
+        autoplaySpeed: 0,
     });
 
     AOS.refresh();
