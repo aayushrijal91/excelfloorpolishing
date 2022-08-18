@@ -1,6 +1,6 @@
-// AOS.init({ duration: 1500 });
+AOS.init({ duration: 1500 });
 
-document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
+document.querySelectorAll('a[href="#form"],a[href="#services"]').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
 
@@ -33,6 +33,8 @@ $(() => {
         asNavFor: '.service-slider',
     });
 
+    AOS.refresh();
+
     $(".type-slider").slick({
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -43,6 +45,8 @@ $(() => {
         infinite: true,
         autoplay: true,
     });
+
+    AOS.refresh();
 
     let serviceSlider = $('.service-slider').slick({
         slidesToShow: 1,
@@ -61,9 +65,13 @@ $(() => {
         infinite: true,
         variableWidth: true,
         autoplay: true,
-    })
+    });
+
+    AOS.refresh();
 
     $('.service-nav').on('click', function () {
         serviceSlider.slick('slickGoTo', $(this).attr('d-service'));
-    })
-})
+    });
+
+    AOS.refresh();
+});

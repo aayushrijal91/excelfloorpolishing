@@ -38,7 +38,7 @@ include __DIR__ . '/header.php';
     <div class="banner">
         <div class="container">
             <div class="row justify-content-end">
-                <div class="col-xl-6">
+                <div class="col-xl-6" data-aos="fade-left">
                     <h1 class="text-primary-gradient">Sydney's Leading Floor Polishing Company</h1>
                     <h3 class="py-3 font-articulat text-dark">Servicing Residential, Commercial & Industrial Services</h3>
                     <div class="row py-4">
@@ -72,7 +72,7 @@ include __DIR__ . '/header.php';
 <section class="about">
     <div class="about-circle-1"><?= renderImg("about-circle-1.png", "lib") ?></div>
     <div class="about-circle-2"><?= renderImg("about-circle-2.png", "lib") ?></div>
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <h1 class="text-primary text-center pb-3">You won't find this kind of quality anywhere else.</h1>
@@ -481,7 +481,7 @@ include __DIR__ . '/header.php';
 <section class="business-type">
     <div class="hero">
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-right">
                 <div class="col-12">
                     <h2>Floor polishing is beneficial<br> for all kinds of business</h2>
                 </div>
@@ -527,10 +527,10 @@ include __DIR__ . '/header.php';
     <div class="description">
         <div class="container">
             <div class="row gx-xl-6">
-                <div class="col-auto">
+                <div class="col-auto" data-aos="fade-right">
                     <?= renderImg("polishing-guy.png", "lib") ?>
                 </div>
-                <div class="col py-xl-6">
+                <div class="col py-xl-6" data-aos="fade-left">
                     <h2>10 years of Floor Polishing</h2>
                     <h4 class="font-articulat fw-700 py-4">Get your heavy duty, low maintenance and non-slip floor today for your home or business!</h4>
                     <p class="line-height-3 h5 font-articulat py-4">
@@ -550,17 +550,17 @@ include __DIR__ . '/header.php';
 
 <section class="gallery">
     <div class="container">
-        <h2 class="text-center text-primary">Projects We've Done</h2>
+        <h2 class="text-center text-primary" data-aos="fade-up">Projects We've Done</h2>
         <div class="row g-3 pt-5 pt-xl-7">
-            <div class="col-4"><?= renderImg("gallery-1.jpg", "lib", "w-100") ?></div>
-            <div class="col-4"><?= renderImg("gallery-2.jpg", "lib", "w-100") ?></div>
-            <div class="col-4"><?= renderImg("gallery-3.jpg", "lib", "w-100") ?></div>
-            <div class="col-3"><?= renderImg("gallery-4.jpg", "lib", "w-100") ?></div>
-            <div class="col-3"><?= renderImg("gallery-5.jpg", "lib", "w-100") ?></div>
-            <div class="col-3"><?= renderImg("gallery-6.jpg", "lib", "w-100") ?></div>
-            <div class="col-3"><?= renderImg("gallery-7.jpg", "lib", "w-100") ?></div>
-            <div class="col-8"><?= renderImg("gallery-8.jpg", "lib", "w-100") ?></div>
-            <div class="col-4"><?= renderImg("gallery-9.jpg", "lib", "w-100") ?></div>
+            <div class="col-4" data-aos="flip-up"><?= renderImg("gallery-1.jpg", "lib", "w-100") ?></div>
+            <div class="col-4" data-aos="flip-up"><?= renderImg("gallery-2.jpg", "lib", "w-100") ?></div>
+            <div class="col-4" data-aos="flip-up"><?= renderImg("gallery-3.jpg", "lib", "w-100") ?></div>
+            <div class="col-3" data-aos="flip-up"><?= renderImg("gallery-4.jpg", "lib", "w-100") ?></div>
+            <div class="col-3" data-aos="flip-up"><?= renderImg("gallery-5.jpg", "lib", "w-100") ?></div>
+            <div class="col-3" data-aos="flip-up"><?= renderImg("gallery-6.jpg", "lib", "w-100") ?></div>
+            <div class="col-3" data-aos="flip-up"><?= renderImg("gallery-7.jpg", "lib", "w-100") ?></div>
+            <div class="col-8" data-aos="flip-up"><?= renderImg("gallery-8.jpg", "lib", "w-100") ?></div>
+            <div class="col-4" data-aos="flip-up"><?= renderImg("gallery-9.jpg", "lib", "w-100") ?></div>
         </div>
     </div>
 
@@ -585,7 +585,7 @@ include __DIR__ . '/header.php';
 
 <section class="gmb">
     <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424141.6978944982!2d150.93197474999997!3d-33.84824395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20NSW!5e0!3m2!1sen!2sau!4v1660795175794!5m2!1sen!2sau" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <div class="social-links">
+    <div class="social-links" data-aos="fade-right">
         <div class="gmb-wrapper">
             <div class="gmb-img"><?= renderImg("gmb.png", "lib") ?></div>
         </div>
