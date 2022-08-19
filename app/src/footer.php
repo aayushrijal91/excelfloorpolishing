@@ -1,8 +1,8 @@
 <footer>
 	<div class="container">
 		<div class="row justify-content-between align-items-center">
-			<div class="col-12 col-md-auto">
-				<div class="row gx-2 gx-md-3 gx-xxl-4 text-white justify-content-between pb-4 pb-md-0">
+			<div class="col-12 col-lg-auto">
+				<div class="row gx-2 gx-md-3 gx-xxl-4 text-white justify-content-between pb-4 pb-lg-0">
 					<div class="col-auto text-center">Copyright <?= date('Y') ?></div>
 					<div class="col-auto">|</div>
 					<div class="col-auto text-center"><?= $site ?></div>

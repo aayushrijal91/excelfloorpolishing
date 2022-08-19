@@ -3,8 +3,8 @@ h1 {
     font-size: 4.0625rem; // 65px
     margin-bottom: 0;
 
-    @include media-breakpoint-down(md) {
-        font-size: 3rem;
+    @include media-breakpoint-down(lg) {
+        font-size: 3.25rem;
     }
 
     @include media-breakpoint-down(sm) {
@@ -30,8 +30,8 @@ h3,
     font-size: 1.5625rem; // 25px
     margin-bottom: 0;
 
-    @include media-breakpoint-down(md) {
-        font-size: 2rem;
+    @include media-breakpoint-down(lg) {
+        font-size: 1.25rem;
     }
 
     @include media-breakpoint-down(sm) {

@@ -6,18 +6,18 @@ include __DIR__ . '/header.php';
 <header>
     <div class="header-top-bar">
         <div class="container">
-            <div class="row justify-content-center justify-content-lg-between align-items-center">
-                <div class="col-6 col-md-auto">
+            <div class="row justify-content-center justify-content-md-between align-items-center">
+                <div class="col-6 col-md-4 col-lg-auto">
                     <a href="./">
                         <?= renderImg("logo.png", "logo") ?>
                     </a>
                 </div>
                 <div class="col col-md-auto top-buttons">
-                    <div class="row justify-content-center justify-content-lg-end align-items-center gx-2 gx-md-3">
+                    <div class="row justify-content-center align-items-center gx-2 gx-md-3">
                         <div class="col-auto">
                             <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill px-md-5 fw-700 h3 phone-button">
-                                <div class="d-none d-md-block"><?= $phone_number ?></div>
-                                <div class="d-md-none">
+                                <div class="d-none d-lg-block"><?= $phone_number ?></div>
+                                <div class="d-lg-none">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M7.99988 4.03595C10.1699 4.03595 11.9287 5.79705 11.9287 7.9671" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         <path d="M7.99988 1.43335C11.6072 1.43335 14.5313 4.35749 14.5313 7.96479" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -45,29 +45,29 @@ include __DIR__ . '/header.php';
     <div class="banner">
         <div class="container">
             <div class="row justify-content-end">
-                <div class="col-xl-6" data-aos="fade-left">
+                <div class="col-md-6 col-xl-6" data-aos="fade-left">
                     <h1 class="text-primary-gradient">Sydney's Leading Floor Polishing Company</h1>
                     <h3 class="py-3 font-articulat text-dark">Servicing Residential, Commercial & Industrial Services</h3>
                     <div class="row py-4 justify-content-center justify-content-md-start high-quality">
                         <div class="col-5 col-md-6 col-xl-5">
                             <div class="row justify-content-center">
                                 <div class="col-auto">
-                                    <?= renderImg("highest-quality-mobile.png", "lib", "d-md-none") ?>
-                                    <?= renderImg("highest-quality.png", "lib", "d-none d-md-block") ?>
+                                    <?= renderImg("highest-quality-mobile.png", "lib", "d-lg-none") ?>
+                                    <?= renderImg("highest-quality.png", "lib", "d-none d-lg-block") ?>
                                 </div>
                                 <div class="col-12 col-md">
-                                    <h3 class="letter-spacing-035 fw-600 text-uppercase text-black py-2 py-md-4 text-center text-md-start">The Best Machines</h3>
+                                    <h3 class="letter-spacing-035 fw-600 text-uppercase text-black py-2 py-md-4 text-center text-lg-start">The Best<br class="d-none d-md-block d-lg-none"> Machines</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="col-5 col-md-6 col-xl-5">
                             <div class="row justify-content-center">
                                 <div class="col-auto">
-                                    <?= renderImg("highest-quality-mobile.png", "lib", "d-md-none") ?>
-                                    <?= renderImg("highest-quality.png", "lib", "d-none d-md-block") ?>
+                                    <?= renderImg("highest-quality-mobile.png", "lib", "d-lg-none") ?>
+                                    <?= renderImg("highest-quality.png", "lib", "d-none d-lg-block") ?>
                                 </div>
                                 <div class="col-12 col-md">
-                                    <h3 class="letter-spacing-035 fw-600 text-uppercase text-black py-2 py-md-4 text-center text-md-start">Top Quality Service</h3>
+                                    <h3 class="letter-spacing-035 fw-600 text-uppercase text-black py-2 py-md-4 text-center text-lg-start">Top Quality Service</h3>
                                 </div>
                             </div>
                         </div>
@@ -148,7 +148,7 @@ include __DIR__ . '/header.php';
                                 </h5>
                             </div>
                         </div>
-                        <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-none d-md-flex">
+                        <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-none d-lg-flex">
                             <div class="col-auto">
                                 <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
                                     Get a free quote
@@ -194,7 +194,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-md-none">
+                <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-lg-none">
                     <div class="col-auto">
                         <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
                             Get a free quote
@@ -220,13 +220,13 @@ include __DIR__ . '/header.php';
                                 </h5>
                             </div>
                         </div>
-                        <div class="row align-items-center service-buttons pt-5">
-                            <div class="col-12 col-md-auto">
+                        <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-none d-lg-flex">
+                            <div class="col-auto">
                                 <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
                                     Get a free quote
                                 </a>
                             </div>
-                            <div class="col-12 col-md-auto">
+                            <div class="col-auto">
                                 <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
                                     Call us today
                                 </a>
@@ -254,6 +254,18 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
+                <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-lg-none">
+                    <div class="col-auto">
+                        <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
+                            Get a free quote
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
+                            Call us today
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="service-slider-content service-3">
@@ -268,7 +280,7 @@ include __DIR__ . '/header.php';
                                 </h5>
                             </div>
                         </div>
-                        <div class="row align-items-center service-buttons pt-5">
+                        <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-none d-lg-flex">
                             <div class="col-12 col-md-auto">
                                 <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
                                     Get a free quote
@@ -312,6 +324,18 @@ include __DIR__ . '/header.php';
                                 <div class="offer-box">Concrete & Aggregate Supply & Pouring</div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-lg-none">
+                    <div class="col-auto">
+                        <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
+                            Get a free quote
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
+                            Call us today
+                        </a>
                     </div>
                 </div>
             </div>
@@ -328,7 +352,7 @@ include __DIR__ . '/header.php';
                                 </h5>
                             </div>
                         </div>
-                        <div class="row align-items-center service-buttons pt-5">
+                        <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-none d-lg-flex">
                             <div class="col-12 col-md-auto">
                                 <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
                                     Get a free quote
@@ -372,6 +396,18 @@ include __DIR__ . '/header.php';
                                 <div class="offer-box">Concrete & Aggregate Supply & Pouring</div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-lg-none">
+                    <div class="col-auto">
+                        <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
+                            Get a free quote
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
+                            Call us today
+                        </a>
                     </div>
                 </div>
             </div>
@@ -388,7 +424,7 @@ include __DIR__ . '/header.php';
                                 </h5>
                             </div>
                         </div>
-                        <div class="row align-items-center service-buttons pt-5">
+                        <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-none d-lg-flex">
                             <div class="col-12 col-md-auto">
                                 <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
                                     Get a free quote
@@ -434,6 +470,18 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
+                <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-lg-none">
+                    <div class="col-auto">
+                        <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
+                            Get a free quote
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
+                            Call us today
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="service-slider-content service-6">
@@ -448,7 +496,7 @@ include __DIR__ . '/header.php';
                                 </h5>
                             </div>
                         </div>
-                        <div class="row align-items-center service-buttons pt-5">
+                        <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-none d-lg-flex">
                             <div class="col-12 col-md-auto">
                                 <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
                                     Get a free quote
@@ -492,6 +540,18 @@ include __DIR__ . '/header.php';
                                 <div class="offer-box">Concrete & Aggregate Supply & Pouring</div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row align-items-center service-buttons pt-5 gx-2 gx-md-3 d-lg-none">
+                    <div class="col-auto">
+                        <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-4 fw-700 h5">
+                            Get a free quote
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="tel:<?= $phone_number ?>" class="btn border-secondary text-secondary font-articulat bordered rounded-pill px-4 fw-800 line-height-1 h5">
+                            Call us today
+                        </a>
                     </div>
                 </div>
             </div>
@@ -548,7 +608,7 @@ include __DIR__ . '/header.php';
     <div class="description">
         <div class="container">
             <div class="row gx-xl-6">
-                <div class="col-auto d-none d-md-block" data-aos="fade-right">
+                <div class="col-auto d-none d-lg-block" data-aos="fade-right">
                     <?= renderImg("polishing-guy.png", "lib") ?>
                 </div>
                 <div class="col py-xl-6" data-aos="fade-left">
@@ -564,7 +624,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </a>
                 </div>
-                <div class="col-auto d-md-none" data-aos="fade-right">
+                <div class="col-auto d-lg-none" data-aos="fade-right">
                     <?= renderImg("polishing-guy.png", "lib", "pt-4") ?>
                 </div>
             </div>
@@ -585,7 +645,7 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 py-md-5">
+            <div class="col-lg-6 py-lg-5">
                 <div class="form-wrapper" id="form">
                     <h2 class="text-primary-gradient text-center pb-3 pb-md-4">Get your Free Quote</h2>
 
@@ -638,7 +698,7 @@ include __DIR__ . '/header.php';
             <div class="col-12 col-md-8" data-aos="flip-up"><?= renderImg("gallery-8.jpg", "lib", "w-100") ?></div>
             <div class="col-12 col-md-4" data-aos="flip-up"><?= renderImg("gallery-9.jpg", "lib", "w-100") ?></div>
         </div>
-        <div class="gallery-slider d-lg-none">
+        <div class="gallery-slider d-md-none">
             <div class=""><?= renderImg("gallery-1.jpg", "lib", "w-100") ?></div>
             <div class=""><?= renderImg("gallery-2.jpg", "lib", "w-100") ?></div>
             <div class=""><?= renderImg("gallery-3.jpg", "lib", "w-100") ?></div>
