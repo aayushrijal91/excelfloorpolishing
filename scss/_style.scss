@@ -266,7 +266,10 @@ section.business-type {
 
 section.form {
     background-color: $grey;
-    padding: 56px 0 0;
+    
+    @include media-breakpoint-up(md) {
+        padding: 91px 0 0;
+    }
 
     .form-slider-wrapper {
         position: relative;
@@ -287,20 +290,61 @@ section.form {
                 display: flex;
                 align-items: bottom;
             }
+
+            &.slick-dotted.slick-slider {
+                margin-bottom: 0;
+            }
+
+            .slick-dots {
+                bottom: 15%;
+                right: 3%;
+
+                li {
+                    button:before {
+                        opacity: 1;
+                        color: $grey;
+                        background: $grey;
+                        width: 9px;
+                        height: 9px;
+                        border-radius: 50px;
+                        content: "";
+                    }
+
+                    &.slick-active button:before {
+                        content: "";
+                        background-color: $secondary;
+                    }
+                }
+            }
         }
     }
 
     .form-wrapper {
         background: #ffffff;
         box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.15);
+        border-radius: 25px;
+        border-top: 26px solid $secondary;
+        padding: 25px 29px;
+
+        @include media-breakpoint-up(md) {
         border-radius: 30px;
-        border-top: 35px solid $secondary;
-        padding: 29px 70px 55px;
+            padding: 29px 70px 55px;
+            border-top: 35px solid $secondary;
+        }
+
+        @include media-breakpoint-down(sm) {
+            margin-top: -48px;
+            position: relative;
+        }
 
         form {
             input,
             select {
-                height: 56px;
+                height: 44px;
+
+                @include media-breakpoint-up(md) {
+                    height: 56px;
+                }
             }
 
             input,

@@ -574,8 +574,8 @@ include __DIR__ . '/header.php';
 
 <section class="form">
     <div class="container">
-        <div class="row gx-xxl-6 justify-content-center align-items-center">
-            <div class="col-5">
+        <div class="row gx-xxl-6 justify-content-center">
+            <div class="col-5 d-none d-xl-block">
                 <div class="form-slider-wrapper">
                     <?= renderImg("mobile.png", "lib", "mobile-img") ?>
                     <div class="form-slider">
@@ -585,17 +585,17 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 py-md-5">
                 <div class="form-wrapper" id="form">
-                    <h2 class="text-primary-gradient text-center pb-5">Get your Free Quote</h2>
+                    <h2 class="text-primary-gradient text-center pb-3 pb-md-4">Get your Free Quote</h2>
 
-                    <form action="./src/form" method="POST">
+                    <form action="./src/form" method="POST" class="pt-3">
                         <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
-                        <div class="row justify-content-center g-4">
-                            <div class="col-6">
+                        <div class="row justify-content-center g-3 g-xl-4">
+                            <div class="col-md-6">
                                 <input type="text" class="form-control" name="name" placeholder="Your name" required>
                             </div>
-                            <div class="col-6">
+                            <div class="col-md-6">
                                 <input type="tel" class="form-control" name="phone" placeholder="Contact number" required>
                             </div>
                             <div class="col-12">
