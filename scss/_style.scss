@@ -264,6 +264,78 @@ section.business-type {
     }
 }
 
+section.form {
+    background-color: $grey;
+    padding: 56px 0 0;
+
+    .form-slider-wrapper {
+        position: relative;
+
+        .mobile-img {
+            position: absolute;
+            bottom: 0;
+            left: -5%;
+        }
+
+        .form-slider {
+            .slick-track {
+                display: flex;
+            }
+
+            .slick-slide {
+                height: inherit;
+                display: flex;
+                align-items: bottom;
+            }
+        }
+    }
+
+    .form-wrapper {
+        background: #ffffff;
+        box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.15);
+        border-radius: 30px;
+        border-top: 35px solid $secondary;
+        padding: 29px 70px 55px;
+
+        form {
+            input,
+            select {
+                height: 56px;
+            }
+
+            input,
+            select,
+            textarea {
+                background: #e8e8e8;
+                font-family: $font-articulat;
+                box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.15);
+                border-radius: 5px;
+                color: #c1c1c1;
+                padding: 8px 29px !important;
+                font-size: 1rem;
+
+                @include media-breakpoint-up(md) {
+                    padding: 24px 31px;
+                }
+            }
+
+            button {
+                width: 100%;
+                display: block;
+                color: $white;
+                font-weight: 700;
+                font-family: $font-articulat;
+                height: 42px;
+                font-size: 1rem;
+
+                @include media-breakpoint-down(xl) {
+                    height: 58px;
+                }
+            }
+        }
+    }
+}
+
 section.gallery {
     background: imgUrl("gallery.png");
     background-size: cover;

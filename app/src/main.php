@@ -572,6 +572,58 @@ include __DIR__ . '/header.php';
     </div>
 </section>
 
+<section class="form">
+    <div class="container">
+        <div class="row gx-xxl-6 justify-content-center align-items-center">
+            <div class="col-5">
+                <div class="form-slider-wrapper">
+                    <?= renderImg("mobile.png", "lib", "mobile-img") ?>
+                    <div class="form-slider">
+                        <div><?= renderImg("flooring-1.png", "lib", "form-slider-img") ?></div>
+                        <div><?= renderImg("flooring-2.png", "lib", "form-slider-img") ?></div>
+                        <div><?= renderImg("flooring-3.png", "lib", "form-slider-img") ?></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="form-wrapper" id="form">
+                    <h2 class="text-primary-gradient text-center pb-5">Get your Free Quote</h2>
+
+                    <form action="./src/form" method="POST">
+                        <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
+                        <div class="row justify-content-center g-4">
+                            <div class="col-6">
+                                <input type="text" class="form-control" name="name" placeholder="Your name" required>
+                            </div>
+                            <div class="col-6">
+                                <input type="tel" class="form-control" name="phone" placeholder="Contact number" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="email" class="form-control" name="email" placeholder="Email address" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" name="address" placeholder="Location Address" required>
+                            </div>
+                            <div class="col-12">
+                                <select name="service" class="form-control" required>
+                                    <option selected disabled>Select type of service</option>
+                                    <option>test</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <textarea name="comment" class="form-control" placeholder="What did you need help with?" rows="5"></textarea>
+                            </div>
+                            <div class="col-8 pt-4">
+                                <button type="submit" class="btn rounded-pill btn-secondary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="gallery">
     <div class="container">
         <h2 class="text-center text-primary" data-aos="fade-up">Projects We've Done</h2>

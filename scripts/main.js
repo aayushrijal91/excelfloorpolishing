@@ -71,7 +71,7 @@ $(() => {
         arrows: false,
         asNavFor: '.service-nav-slider',
     });
-    
+
     AOS.refresh();
 
     $('.brands-slider').slick({
@@ -113,5 +113,12 @@ $(() => {
         autoplaySpeed: 0,
     });
 
+    AOS.refresh();
+
+    $('.form-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+    })
     AOS.refresh();
 });
