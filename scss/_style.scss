@@ -65,7 +65,7 @@ header {
         background-size: contain;
         padding: 55px 0 124px;
 
-        @include media-breakpoint-up(lg) {
+        @include media-breakpoint-up(xl) {
             padding: 161px 0 124px;
         }
 
@@ -247,6 +247,10 @@ section.business-type {
     color: $white;
 
     @include media-breakpoint-up(lg) {
+        background: linear-gradient(#2d2c2c 0 35%, $secondary 35% 100%);
+    }
+
+    @include media-breakpoint-up(xl) {
         background: imgUrl("business-type.png") center top $secondary;
         background-size: contain;
     }

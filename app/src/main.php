@@ -7,7 +7,7 @@ include __DIR__ . '/header.php';
     <div class="header-top-bar">
         <div class="container">
             <div class="row justify-content-center justify-content-md-between align-items-center">
-                <div class="col-6 col-md-4 col-lg-auto">
+                <div class="col-6 col-md-4 col-xl-auto">
                     <a href="./">
                         <?= renderImg("logo.png", "logo") ?>
                     </a>
@@ -16,8 +16,8 @@ include __DIR__ . '/header.php';
                     <div class="row justify-content-center align-items-center gx-2 gx-md-3">
                         <div class="col-auto">
                             <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill px-md-5 fw-700 h3 phone-button">
-                                <div class="d-none d-lg-block"><?= $phone_number ?></div>
-                                <div class="d-lg-none">
+                                <div class="d-none d-xl-block"><?= $phone_number ?></div>
+                                <div class="d-xl-none">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M7.99988 4.03595C10.1699 4.03595 11.9287 5.79705 11.9287 7.9671" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         <path d="M7.99988 1.43335C11.6072 1.43335 14.5313 4.35749 14.5313 7.96479" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -55,8 +55,8 @@ include __DIR__ . '/header.php';
                                     <?= renderImg("highest-quality-mobile.png", "lib", "d-lg-none") ?>
                                     <?= renderImg("highest-quality.png", "lib", "d-none d-lg-block") ?>
                                 </div>
-                                <div class="col-12 col-md">
-                                    <h3 class="letter-spacing-035 fw-600 text-uppercase text-black py-2 py-md-4 text-center text-lg-start">The Best<br class="d-none d-md-block d-lg-none"> Machines</h3>
+                                <div class="col-12 col-xl">
+                                    <h3 class="letter-spacing-035 fw-600 text-uppercase text-black py-2 py-md-3 py-xl-4 text-center text-xl-start">The Best<br class="d-none d-md-block d-lg-none"> Machines</h3>
                                 </div>
                             </div>
                         </div>
@@ -66,8 +66,8 @@ include __DIR__ . '/header.php';
                                     <?= renderImg("highest-quality-mobile.png", "lib", "d-lg-none") ?>
                                     <?= renderImg("highest-quality.png", "lib", "d-none d-lg-block") ?>
                                 </div>
-                                <div class="col-12 col-md">
-                                    <h3 class="letter-spacing-035 fw-600 text-uppercase text-black py-2 py-md-4 text-center text-lg-start">Top Quality Service</h3>
+                                <div class="col-12 col-xl">
+                                    <h3 class="letter-spacing-035 fw-600 text-uppercase text-black py-2 py-md-3 py-xl-4 text-center text-xl-start">Top Quality Service</h3>
                                 </div>
                             </div>
                         </div>
@@ -566,7 +566,7 @@ include __DIR__ . '/header.php';
                 <div class="col-10 col-md-12">
                     <h2>Floor polishing is beneficial<br class="d-none d-md-block"> for all kinds of business</h2>
                 </div>
-                <div class="col-8 col-lg-4 py-4 py-md-5">
+                <div class="col-8 col-lg-12 col-xl-4 py-4 py-md-5">
                     <div class="h5 font-articulat line-height-3">Not sure if we service you? Check out the range of residential, commercial and industrial buildings we’ve done. Floor polishing is suitable for a huge range of homes and businesses, give us a call if you have any questions!</div>
                 </div>
                 <div class="col-12 pt-4 pt-md-0">
@@ -607,11 +607,11 @@ include __DIR__ . '/header.php';
 
     <div class="description">
         <div class="container">
-            <div class="row gx-xl-6">
-                <div class="col-auto d-none d-lg-block" data-aos="fade-right">
+            <div class="row gx-xl-6 align-items-lg-end align-items-xl-start">
+                <div class="col-auto col-lg-6 col-xl-auto d-none d-lg-block" data-aos="fade-right">
                     <?= renderImg("polishing-guy.png", "lib") ?>
                 </div>
-                <div class="col py-xl-6" data-aos="fade-left">
+                <div class="col pb-lg-5 py-xl-6" data-aos="fade-left">
                     <h2>10 Years of Floor<br class="d-md-none"> Polishing</h2>
                     <h4 class="font-articulat fw-700 py-4">Get your heavy duty, low maintenance and non-slip floor today for your home or business!</h4>
                     <p class="line-height-3 h5 font-articulat pb-4 py-md-4">
@@ -635,7 +635,7 @@ include __DIR__ . '/header.php';
 <section class="form">
     <div class="container">
         <div class="row gx-xxl-6 justify-content-center">
-            <div class="col-5 d-none d-xl-block">
+            <div class="col-lg-6 col-xl-5 d-none d-xl-block">
                 <div class="form-slider-wrapper">
                     <?= renderImg("mobile.png", "lib", "mobile-img") ?>
                     <div class="form-slider">
@@ -645,7 +645,7 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 py-lg-5">
+            <div class="col-lg-9 col-xl-6 py-lg-5">
                 <div class="form-wrapper" id="form">
                     <h2 class="text-primary-gradient text-center pb-3 pb-md-4">Get your Free Quote</h2>
 

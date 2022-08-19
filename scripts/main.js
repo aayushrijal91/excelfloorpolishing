@@ -61,7 +61,7 @@ $(() => {
                 }
             },
             {
-                breakpoint: 900,
+                breakpoint: 1100,
                 settings: {
                     slidesToShow: 3,
                 }
