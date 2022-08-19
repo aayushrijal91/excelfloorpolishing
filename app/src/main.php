@@ -485,7 +485,7 @@ include __DIR__ . '/header.php';
                     <div class="col-lg-6">
                         <div class="text-primary h5 font-articulat fw-700">What do we offer?</div>
                         <div class="row offers g-3">
-                        <div class="col-auto">
+                            <div class="col-auto">
                                 <div class="offer-box">Terrazzo Grinding</div>
                             </div>
                             <div class="col-auto">
@@ -531,7 +531,7 @@ include __DIR__ . '/header.php';
                     <div class="h5 font-articulat line-height-3">Not sure if we service you? Check out the range of residential, commercial and industrial buildings we’ve done. Floor polishing is suitable for a huge range of homes and businesses, give us a call if you have any questions!</div>
                 </div>
                 <div class="col-12 pt-4 pt-md-0">
-                    <a href="#form" class="btn btn-secondary text-white font-articulat rounded-pill px-3 px-md-4 py-2 py-md-3 fw-700 h5">
+                    <a href="tel: <?= $phone_number ?>" class="btn btn-secondary text-white font-articulat rounded-pill px-3 px-md-4 py-2 py-md-3 fw-700 h5">
                         <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13.122 6.12354C16.8528 6.12354 19.8765 9.15124 19.8765 12.882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M13.122 1.64917C19.3238 1.64917 24.351 6.67638 24.351 12.8781" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -578,7 +578,7 @@ include __DIR__ . '/header.php';
                     <p class="line-height-3 h5 font-articulat pb-4 py-md-4">
                         Excel Floor Polishing Pty Ltd has over 10 years of experience providing expert flooring solutions to customers across a wide range of industries. We are a highly reputable and dependable company, offering grinding, polishing, buffing and sealing of concrete, marble, terrazzo, granite, insitu, limestone and sandstone surfaces.
                     </p>
-                    <a href="#services" class="btn px-0">
+                    <a href="#form" class="btn px-0">
                         <div class="d-flex justify-content-center align-items-center">
                             <div class="font-articulat text-white fw-700 h5">Get your free quote now</div>
                             <div class="ps-3"><?= renderImg("arrow-down-white.png", "icons") ?></div>
@@ -628,7 +628,12 @@ include __DIR__ . '/header.php';
                             <div class="col-12">
                                 <select name="service" class="form-control" required>
                                     <option selected disabled>Select type of service</option>
-                                    <option>test</option>
+                                    <option>Concrete Polishing</option>
+                                    <option>Marble Polishing &amp; Restoration</option>
+                                    <option>Sandstone Polishing</option>
+                                    <option>Travertine Polishing</option>
+                                    <option>Limestone Polishing</option>
+                                    <option>Terrazo Polishing</option>
                                 </select>
                             </div>
                             <div class="col-12">
