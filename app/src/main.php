@@ -274,9 +274,11 @@ include __DIR__ . '/header.php';
                     <div class="col-lg-5">
                         <h2 class="text-primary">Sandstone Polishing</h2>
                         <div class="row">
-                            <div class="col-12 col-xxl-10">
+                            <div class="col-12">
                                 <h5 class="font-articulat line-height-3 pt-5">
-                                    Polished concrete has become the ideal floor finish for many settings, including retail, restaurants, show room floors, manufacturing, garages, and residential interiors due to its low maintenance, durability and high resistance to staining. Polished concrete is also relatively inexpensive and can be stylish in its appearance, with many new colours from which you can choose.
+                                    Sandstone restoration can bring old Sandstone floorings back to their original beauty. Stains can be removed and the whole surface polished to a high sheen.
+                                    Excel Floor Polishing is your premier provider of Sandstone polishing and restoration services. Our service uses only the most advanced grinding and polishing machinery. All of our projects are completed on budget, within budget, and dust free so you can be assured that the process won’t leave you a mess.
+                                    We offer a full range of Sandstone floor and stair polishing services including:
                                 </h5>
                             </div>
                         </div>
@@ -297,31 +299,19 @@ include __DIR__ . '/header.php';
                         <div class="text-primary h5 font-articulat fw-700">What do we offer?</div>
                         <div class="row offers g-3">
                             <div class="col-auto">
-                                <div class="offer-box">Polished Concrete Floors &amp; Benchtops</div>
+                                <div class="offer-box">Sandstone Grinding</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Grout &amp; Crack Sealing</div>
+                                <div class="offer-box">Sandstone Sealing</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Grinding</div>
+                                <div class="offer-box">Sandstone Polishing</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Buffing</div>
+                                <div class="offer-box">Sandstone Restoration</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Sealing</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Concrete Grout & Crack Repairs</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Anti Slip & Stain Resistant Coatings</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Decorative Concrete Coatings</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Concrete & Aggregate Supply & Pouring</div>
+                                <div class="offer-box">Sandstone Crack and Stain Repair</div>
                             </div>
                         </div>
                     </div>
@@ -346,9 +336,11 @@ include __DIR__ . '/header.php';
                     <div class="col-lg-5">
                         <h2 class="text-primary">Travertine Polishing</h2>
                         <div class="row">
-                            <div class="col-12 col-xxl-10">
+                            <div class="col-12">
                                 <h5 class="font-articulat line-height-3 pt-5">
-                                    Polished concrete has become the ideal floor finish for many settings, including retail, restaurants, show room floors, manufacturing, garages, and residential interiors due to its low maintenance, durability and high resistance to staining. Polished concrete is also relatively inexpensive and can be stylish in its appearance, with many new colours from which you can choose.
+                                    Travertine restoration can bring old Travertine floorings back to their original beauty. Stains can be removed and the whole surface polished to a high sheen.
+                                    Excel Floor Polishing is your premier provider of Travertine polishing and restoration services. Our service uses only the most advanced grinding and polishing machinery. All of our projects are completed on budget, within budget, and dust free so you can be assured that the process won’t leave you a mess.
+                                    We offer a full range of Travertine floor and stair polishing services including:
                                 </h5>
                             </div>
                         </div>
@@ -369,31 +361,19 @@ include __DIR__ . '/header.php';
                         <div class="text-primary h5 font-articulat fw-700">What do we offer?</div>
                         <div class="row offers g-3">
                             <div class="col-auto">
-                                <div class="offer-box">Polished Concrete Floors &amp; Benchtops</div>
+                                <div class="offer-box">Travertine Grinding</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Grout &amp; Crack Sealing</div>
+                                <div class="offer-box">Travertine Sealing</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Grinding</div>
+                                <div class="offer-box">Travertine Polishing</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Buffing</div>
+                                <div class="offer-box">Travertine Restoration</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Sealing</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Concrete Grout & Crack Repairs</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Anti Slip & Stain Resistant Coatings</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Decorative Concrete Coatings</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Concrete & Aggregate Supply & Pouring</div>
+                                <div class="offer-box">Travertine Crack and Stain Repair</div>
                             </div>
                         </div>
                     </div>
@@ -418,9 +398,12 @@ include __DIR__ . '/header.php';
                     <div class="col-lg-5">
                         <h2 class="text-primary">Limestone Polishing</h2>
                         <div class="row">
-                            <div class="col-12 col-xxl-10">
+                            <div class="col-12">
                                 <h5 class="font-articulat line-height-3 pt-5">
-                                    Polished concrete has become the ideal floor finish for many settings, including retail, restaurants, show room floors, manufacturing, garages, and residential interiors due to its low maintenance, durability and high resistance to staining. Polished concrete is also relatively inexpensive and can be stylish in its appearance, with many new colours from which you can choose.
+                                    Limestone restoration can bring old Limestone floorings back to their original beauty. Stains can be removed and the whole surface polished to a high sheen.
+                                    Excel Floor Polishing is your premier provider of Limestone polishing and restoration services. Our service uses only the most advanced grinding and polishing machinery. All of our projects are completed on budget, within budget, and dust free so you can be assured that the process won’t leave you a mess.
+                                    We service the residential, commercial and industrial sectors working on a wide range of projects of all sizes and budgets. Let our team of hard-working professionals handle all of your Limestone flooring needs. Our dedicated team is highly trained, fast and efficient. We guarantee that you will be pleased with the results of our work.
+                                    We offer a full range of Limestone floor and stair polishing services including:
                                 </h5>
                             </div>
                         </div>
@@ -441,31 +424,19 @@ include __DIR__ . '/header.php';
                         <div class="text-primary h5 font-articulat fw-700">What do we offer?</div>
                         <div class="row offers g-3">
                             <div class="col-auto">
-                                <div class="offer-box">Polished Concrete Floors &amp; Benchtops</div>
+                                <div class="offer-box">Limestone Grinding</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Grout &amp; Crack Sealing</div>
+                                <div class="offer-box">Limestone Sealing</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Grinding</div>
+                                <div class="offer-box">Limestone Polishing</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Buffing</div>
+                                <div class="offer-box">Limestone Restoration</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Sealing</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Concrete Grout & Crack Repairs</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Anti Slip & Stain Resistant Coatings</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Decorative Concrete Coatings</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Concrete & Aggregate Supply & Pouring</div>
+                                <div class="offer-box">Limestone Crack and Stain Repair</div>
                             </div>
                         </div>
                     </div>
@@ -490,9 +461,11 @@ include __DIR__ . '/header.php';
                     <div class="col-lg-5">
                         <h2 class="text-primary">Terrazo Polishing</h2>
                         <div class="row">
-                            <div class="col-12 col-xxl-10">
+                            <div class="col-12">
                                 <h5 class="font-articulat line-height-3 pt-5">
-                                    Polished concrete has become the ideal floor finish for many settings, including retail, restaurants, show room floors, manufacturing, garages, and residential interiors due to its low maintenance, durability and high resistance to staining. Polished concrete is also relatively inexpensive and can be stylish in its appearance, with many new colours from which you can choose.
+                                    Terrazzo floors are beautiful, durable and seamless. They are also now easy to maintain. Terrazzo restoration can bring old terrazzo floorings back to their original beauty. Stains can be removed, chips and cracks repaired, and the whole surface polished to a high sheen.
+                                    Excel Floor Polishing is your premier provider of terrazzo polishing and restoration services. Our service uses only the most advanced grinding and polishing machinery. All of our projects are completed on budget, within budget, and dust free so you can be assured that the process won’t leave you a mess.
+                                    We offer a full range of Terrazzo floor and stair polishing services including:
                                 </h5>
                             </div>
                         </div>
@@ -512,32 +485,20 @@ include __DIR__ . '/header.php';
                     <div class="col-lg-6">
                         <div class="text-primary h5 font-articulat fw-700">What do we offer?</div>
                         <div class="row offers g-3">
-                            <div class="col-auto">
-                                <div class="offer-box">Polished Concrete Floors &amp; Benchtops</div>
+                        <div class="col-auto">
+                                <div class="offer-box">Terrazzo Grinding</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Grout &amp; Crack Sealing</div>
+                                <div class="offer-box">Terrazzo Sealing</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Grinding</div>
+                                <div class="offer-box">Terrazzo Polishing</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Buffing</div>
+                                <div class="offer-box">Terrazzo Restoration</div>
                             </div>
                             <div class="col-auto">
-                                <div class="offer-box">Concrete Sealing</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Concrete Grout & Crack Repairs</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Anti Slip & Stain Resistant Coatings</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Decorative Concrete Coatings</div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="offer-box">Concrete & Aggregate Supply & Pouring</div>
+                                <div class="offer-box">Terrazzo Crack and Stain Repair</div>
                             </div>
                         </div>
                     </div>
