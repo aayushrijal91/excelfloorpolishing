@@ -36,7 +36,6 @@ $(() => {
                 breakpoint: 540,
                 settings: {
                     slidesToShow: 1,
-                    centerMode: true,
                 }
             }
         ]

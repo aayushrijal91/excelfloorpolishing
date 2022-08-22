@@ -138,7 +138,7 @@ include __DIR__ . '/header.php';
     <div class="service-slider">
         <div class="service-slider-content service-1">
             <div class="container">
-                <div class="row justify-content-between align-items-end">
+                <div class="row justify-content-between align-items-center">
                     <div class="col-lg-5">
                         <h2 class="text-primary">Concrete Polishing</h2>
                         <div class="row">
@@ -210,13 +210,15 @@ include __DIR__ . '/header.php';
         </div>
         <div class="service-slider-content service-2">
             <div class="container">
-                <div class="row justify-content-between align-items-end">
+                <div class="row justify-content-between align-items-center">
                     <div class="col-lg-5">
                         <h2 class="text-primary">Marble Polishing &amp; Restoration</h2>
                         <div class="row">
-                            <div class="col-12 col-xxl-10">
+                            <div class="col-12">
                                 <h5 class="font-articulat line-height-3 pt-5">
-                                    Polished concrete has become the ideal floor finish for many settings, including retail, restaurants, show room floors, manufacturing, garages, and residential interiors due to its low maintenance, durability and high resistance to staining. Polished concrete is also relatively inexpensive and can be stylish in its appearance, with many new colours from which you can choose.
+                                    Excel Floor Polishing is your premier provider of Marble polishing and restoration services. Our service uses only the most advanced grinding and polishing machinery. All of our projects are completed on budget, within budget, and dust free so you can be assured that the process won’t leave you a mess.
+                                    We service the residential, commercial and industrial sectors working on a wide range of projects of all sizes and budgets. Let our team of hard-working professionals handle all of your Marble flooring needs. Our dedicated team is highly trained, fast and efficient. We guarantee that you will be pleased with the results of our work.
+                                    We offer a full range of Marble floor and stair polishing services including:
                                 </h5>
                             </div>
                         </div>
@@ -270,7 +272,7 @@ include __DIR__ . '/header.php';
         </div>
         <div class="service-slider-content service-3">
             <div class="container">
-                <div class="row justify-content-between align-items-end">
+                <div class="row justify-content-between align-items-center">
                     <div class="col-lg-5">
                         <h2 class="text-primary">Sandstone Polishing</h2>
                         <div class="row">
@@ -332,7 +334,7 @@ include __DIR__ . '/header.php';
         </div>
         <div class="service-slider-content service-4">
             <div class="container">
-                <div class="row justify-content-between align-items-end">
+                <div class="row justify-content-between align-items-center">
                     <div class="col-lg-5">
                         <h2 class="text-primary">Travertine Polishing</h2>
                         <div class="row">
@@ -394,7 +396,7 @@ include __DIR__ . '/header.php';
         </div>
         <div class="service-slider-content service-5">
             <div class="container">
-                <div class="row justify-content-between align-items-end">
+                <div class="row justify-content-between align-items-center">
                     <div class="col-lg-5">
                         <h2 class="text-primary">Limestone Polishing</h2>
                         <div class="row">
@@ -457,7 +459,7 @@ include __DIR__ . '/header.php';
         </div>
         <div class="service-slider-content service-6">
             <div class="container">
-                <div class="row justify-content-between align-items-end">
+                <div class="row justify-content-between align-items-center">
                     <div class="col-lg-5">
                         <h2 class="text-primary">Terrazo Polishing</h2>
                         <div class="row">
@@ -523,23 +525,27 @@ include __DIR__ . '/header.php';
 <section class="business-type">
     <div class="hero">
         <div class="container">
-            <div class="row" data-aos="fade-right">
-                <div class="col-10 col-md-12">
-                    <h2>Floor polishing is beneficial<br class="d-none d-md-block"> for all kinds of business</h2>
-                </div>
-                <div class="col-8 col-lg-12 col-xl-4 py-4 py-md-5">
-                    <div class="h5 font-articulat line-height-3">Not sure if we service you? Check out the range of residential, commercial and industrial buildings we’ve done. Floor polishing is suitable for a huge range of homes and businesses, give us a call if you have any questions!</div>
-                </div>
-                <div class="col-12 pt-4 pt-md-0">
-                    <a href="tel: <?= $phone_number ?>" class="btn btn-secondary text-white font-articulat rounded-pill px-3 px-md-4 py-2 py-md-3 fw-700 h5">
-                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M13.122 6.12354C16.8528 6.12354 19.8765 9.15124 19.8765 12.882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M13.122 1.64917C19.3238 1.64917 24.351 6.67638 24.351 12.8781" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M1.68176 2.54313C-1.78486 6.00975 0.27967 13.6948 6.29445 19.7096C12.3052 25.7244 19.9903 27.7849 23.4569 24.3182C24.5054 23.2657 24.985 20.8801 24.985 20.8801C25.0622 20.4858 24.8346 20.0469 24.4769 19.9047L18.1818 17.3891C17.8241 17.2468 17.2917 17.3647 17.0032 17.6573L15.1825 19.478C14.833 19.8275 14.3331 19.9128 13.9348 19.734C13.9023 19.7177 13.8739 19.7015 13.8414 19.6852C13.8292 19.6771 13.8129 19.669 13.8007 19.6609C12.4149 18.9049 10.9478 17.8076 9.57006 16.4259C8.18829 15.0482 7.091 13.5811 6.33509 12.1952C6.32696 12.183 6.31883 12.1708 6.31477 12.1586C6.29851 12.1261 6.28225 12.0936 6.266 12.0652C6.08718 11.6669 6.17253 11.167 6.51797 10.8175L8.34272 8.99275C8.63533 8.70421 8.75319 8.17182 8.61095 7.81418L6.09531 1.52305C5.95307 1.16542 5.51415 0.93783 5.11994 1.01505C5.11994 1.01505 2.73435 1.49054 1.68176 2.54313V2.54313Z" fill="white" />
-                        </svg>
-
-                        <span class="ps-2"><?= $phone_number ?></span>
-                    </a>
+            <div class="row justify-content-center">
+                <div class="col-xl-9 col-xxl-11">
+                    <div class="row" data-aos="fade-right">
+                        <div class="col-10 col-md-12">
+                            <h2>Floor polishing is beneficial<br class="d-none d-md-block"> for all kinds of business</h2>
+                        </div>
+                        <div class="col-8 col-lg-12 col-xl-4 py-4 py-md-5">
+                            <div class="h5 font-articulat line-height-3">Not sure if we service you? Check out the range of residential, commercial and industrial buildings we’ve done. Floor polishing is suitable for a huge range of homes and businesses, give us a call if you have any questions!</div>
+                        </div>
+                        <div class="col-12 pt-4 pt-md-0">
+                            <a href="tel: <?= $phone_number ?>" class="btn btn-secondary text-white font-articulat rounded-pill px-3 px-md-4 py-2 py-md-3 fw-700 h5">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.122 6.12354C16.8528 6.12354 19.8765 9.15124 19.8765 12.882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M13.122 1.64917C19.3238 1.64917 24.351 6.67638 24.351 12.8781" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M1.68176 2.54313C-1.78486 6.00975 0.27967 13.6948 6.29445 19.7096C12.3052 25.7244 19.9903 27.7849 23.4569 24.3182C24.5054 23.2657 24.985 20.8801 24.985 20.8801C25.0622 20.4858 24.8346 20.0469 24.4769 19.9047L18.1818 17.3891C17.8241 17.2468 17.2917 17.3647 17.0032 17.6573L15.1825 19.478C14.833 19.8275 14.3331 19.9128 13.9348 19.734C13.9023 19.7177 13.8739 19.7015 13.8414 19.6852C13.8292 19.6771 13.8129 19.669 13.8007 19.6609C12.4149 18.9049 10.9478 17.8076 9.57006 16.4259C8.18829 15.0482 7.091 13.5811 6.33509 12.1952C6.32696 12.183 6.31883 12.1708 6.31477 12.1586C6.29851 12.1261 6.28225 12.0936 6.266 12.0652C6.08718 11.6669 6.17253 11.167 6.51797 10.8175L8.34272 8.99275C8.63533 8.70421 8.75319 8.17182 8.61095 7.81418L6.09531 1.52305C5.95307 1.16542 5.51415 0.93783 5.11994 1.01505C5.11994 1.01505 2.73435 1.49054 1.68176 2.54313V2.54313Z" fill="white" />
+                                </svg>
+        
+                                <span class="ps-2"><?= $phone_number ?></span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
